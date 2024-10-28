@@ -29,7 +29,10 @@ export const mockOrders: Order[] = [
 
 export const mockProductionData: ProductionData[] = [
   { name: 'Week 1', target: 2000, actual: 1800 },
-  // ... other production data
+  { name: 'Week 2', target: 2000, actual: 1900 },
+  { name: 'Week 3', target: 2000, actual: 2100 },
+  { name: 'Week 4', target: 2000, actual: 2200 }
+  
 ];
 
 export const mockEfficiencyData: EfficiencyData[] = [
